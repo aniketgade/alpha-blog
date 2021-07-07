@@ -1,0 +1,21 @@
+ru:
+  articles:
+    index:
+      listing_all_articles: "Список всех статей"
+      view: "Посмотреть"
+      edit: "Редактировать"
+      delete: "Удалить" 
+    show:
+      view: "Посмотреть"
+      edit: "Редактировать"
+      delete: "Удалить" 
+      listing_article_details: "Информация о листинге статьи"
+    form:
+      cancel_and_return: "Отменить и вернуться к списку статей"
+  activerecord:
+    models:
+      article: 'Статья'
+    attributes:
+      article:
+        title: 'Заголовок'
+        description: 'описание'

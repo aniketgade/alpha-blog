@@ -30,4 +30,23 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  articles:
+    index:
+      listing_all_articles: "Listing All Articles" 
+      view: "View"
+      edit: "Edit"
+      delete: "Delete"
+    show:
+      view: "View"
+      edit: "Edit"
+      delete: "Delete"
+      listing_article_details: "Listing Article Details"
+    form:
+      cancel_and_return: "Cancel and return to articles listing"
+  activerecord:
+    models:
+      article: 'Article'
+    attributes:
+      article:
+        title: 'Title'
+        description: 'Description'
