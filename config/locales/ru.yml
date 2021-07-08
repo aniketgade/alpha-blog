@@ -19,3 +19,8 @@ ru:
       article:
         title: 'Заголовок'
         description: 'описание'
+  layouts:
+    navigation:
+      articles: 'Статьи'
+      create_new_article: 'Создать новую статью'
+      view_articles: 'Просмотр статей'
