@@ -6,13 +6,13 @@
         <div class="input-group row mb-3">
           <%= f.label :title, class: "col-2 col-form-label text-light" %>
           <div class="col-10">
-            <%= f.text_field :title, class: "form-control shadow rounded", placeholder: "Title of article" %>
+            <%= f.text_field :title, class: "form-control shadow rounded", placeholder: t('.title_of_article') %>
           </div>
         </div>
         <div class="input-group row mb-3">
           <%= f.label :description, class: "col-2 col-form-label text-light" %>
             <div class="col-10"> 
-              <%= f.text_area :description, rows: 10, class: "form-control shadow rounded", placeholder: "Description of article" %>
+              <%= f.text_area :description, rows: 10, class: "form-control shadow rounded", placeholder: t('.description_of_article') %>
             </div>
         </div>
 

@@ -1,17 +1,28 @@
 ru:
+  users:
+    index:
+      alpha_bloggers: "Alpha блоггеры"
+      view_profile: "Просмотреть профиль"
+      edit_profile: "Редактировать профиль"
+      joined: "Присоединился"
+      ago: "тому назад"
+    show:
+      edit_your_profile: "Редактировать профиль"
+      profile: "профиль"
+      created: "Созданный"
+      edited: "Отредактировано"
   articles:
     index:
       listing_all_articles: "Список всех статей"
-      view: "Посмотреть"
-      edit: "Редактировать"
-      delete: "Удалить" 
     show:
+      listing_article_details: "Информация о листинге статьи"
       view: "Посмотреть"
       edit: "Редактировать"
-      delete: "Удалить" 
-      listing_article_details: "Информация о листинге статьи"
+      delete: "Удалить"
     form:
       cancel_and_return: "Отменить и вернуться к списку статей"
+    article:
+      by: "от"
   activerecord:
     models:
       article: 'Статья'

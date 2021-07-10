@@ -1,0 +1,37 @@
+hi:
+  users:
+    index:
+      alpha_bloggers: "Alpha ब्लॉगर"
+      view_profile: "प्रोफ़ाइल देखें"
+      edit_profile: "प्रोफ़ाइल संपादित करें"
+      joined: "में शामिल हो गए"
+      ago: "पूर्व"
+    show:
+      edit_your_profile: "अपने प्रोफ़ाइल संपादित करें"
+      profile: "प्रोफ़ाइल"
+      created: "बनाया था"
+      edited: "संपादित"
+  articles:
+    index:
+      listing_all_articles: "सभी लेखों को सूचीबद्ध करना" 
+    show:
+      listing_article_details: "लेख तपशील"
+      view: "देखें"
+      edit: "संपादित करें"
+      delete: "हटाएं"
+    form:
+      cancel_and_return: "रद्द करें और लेखों की सूची पर वापस लौटें"
+    article:
+      by: "द्वारा"
+  activerecord:
+    models:
+      article: "लेख"
+    attributes:
+      article:
+        title: "शीर्षक"
+        description: "विवरण"
+  layouts:
+    navigation:
+      articles: "लेख"
+      create_new_article: "नया लेख बनाएं"
+      view_articles: "लेख देखें"

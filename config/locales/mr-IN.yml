@@ -1,0 +1,51 @@
+mr-IN:
+  users:
+    index:
+      alpha_bloggers: "Alpha ब्लॉगर"
+      view_profile: "प्रोफाइल पहा"
+      edit_profile: "प्रोफाईल संपादित करा"
+      joined: "सामील झाले"
+      ago: "पूर्वी"
+    show:
+      edit_your_profile: "आपले प्रोफाइल संपादित करा"
+      profile: "प्रोफाइल"
+      created: "तयार केले"
+      edited: "संपादित"
+    form:
+      update_account: "खाते अद्यतनित करा"
+      sign_up: "साइन अप करा"
+      cancel_and_return: "रद्द करा आणि परत या"
+      choose_password: "पासवर्ड निवडा"
+      enter_your_email: "तुमचा ईमेल टाका"
+      choose_username: "वापरकर्तानाव निवडा"
+  articles:
+    index:
+      listing_all_articles: "सर्व लेखांची यादी" 
+    show:
+      listing_article_details: "लेख विवरण"
+      view: "पहा"
+      edit: "सुधारणे"
+      delete: "हटवा"
+    form:
+      cancel_and_return: "रद्द करा आणि लेख सूचीकडे परत या"
+      title_of_article: "लेखाचे शीर्षक"
+      description_of_article: "लेखाचे वर्णन"
+    article:
+      by: "द्वारा"
+  activerecord:
+    models:
+      article: "लेख"
+    attributes:
+      article:
+        title: "शीर्षक"
+        description: "वर्णन"
+      user:
+        username: "वापरकर्तानाव"
+        email: "ईमेल"
+        password: "संकेतशब्द"
+  layouts:
+    navigation:
+      articles: "लेख"
+      create_new_article: "नवीन लेख तयार करा"
+      view_articles: "लेख पहा"
+      bloggers: "ब्लॉगर्स"

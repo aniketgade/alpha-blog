@@ -6,29 +6,29 @@
         <div class="input-group row mb-3">
           <%= f.label :username, class: "col-2 col-form-label text-light" %>
           <div class="col-10">
-            <%= f.text_field :username, class: "form-control shadow rounded", placeholder: "Chooose username" %>
+            <%= f.text_field :username, class: "form-control shadow rounded", placeholder: t('.choose_username') %>
           </div>
         </div>
         <div class="input-group row mb-3">
           <%= f.label :email, class: "col-2 col-form-label text-light" %>
             <div class="col-10"> 
-              <%= f.email_field :email, class: "form-control shadow rounded", placeholder: "Enter your email" %>
+              <%= f.email_field :email, class: "form-control shadow rounded", placeholder: t('.enter_your_email') %>
             </div>
         </div>
         <div class="input-group row mb-3">
           <%= f.label :password, class: "col-2 col-form-label text-light" %>
             <div class="col-10"> 
-              <%= f.password_field :password, class: "form-control shadow rounded", placeholder: "Choose password" %>
+              <%= f.password_field :password, class: "form-control shadow rounded", placeholder: t('.choose_password') %>
             </div>
         </div>
 
         <div class="input-group justify-content-center text-center mb-3">
-          <%= f.submit(@user.new_record? ? "Sign up" : "Update account", class: "btn btn-outline-light btn-lg") %>
+          <%= f.submit(@user.new_record? ? t('.sign_up') : t('.update_account'), class: "btn btn-outline-light btn-lg") %>
         </div>
       <% end %>
     </div>
     <div class="mb-3 text-center">
-      <%= link_to t('.cancel_and_return') , articles_path, class: "text-primary" %>
+      <%= link_to t('.cancel_and_return') , users_path, class: "text-primary" %>
     </div>
   </div>
 </div>

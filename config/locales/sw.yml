@@ -1,0 +1,51 @@
+sw:
+  users:
+    index:
+      alpha_bloggers: "Alpha Wanablogu"
+      view_profile: "Tazama Profaili"
+      edit_profile: "Hariri Profaili"
+      joined: "Umejiunga"
+      ago: "iliyopita"
+    show:
+      edit_your_profile: "Hariri wasifu wako"
+      profile: "maelezo mafupi"
+      created: "Imeundwa"
+      edited: "Imehaririwa"
+    form:
+      update_account: "Sasisha akaunti"
+      sign_up: "Jisajili"
+      cancel_and_return: "Ghairi na Urudishe"
+      choose_password: "Chagua Nenosiri"
+      enter_your_email: "Ingiza Barua pepe yako"
+      choose_username: "Chagua jina la mtumiaji"
+  articles:
+    index:
+      listing_all_articles: "Kuorodhesha Vifungu Vyote" 
+    show:
+      listing_article_details: "Kuorodhesha Maelezo ya Kifungu"
+      view: "Angalia"
+      edit: "Hariri"
+      delete: "Futa"
+    form:
+      cancel_and_return: "Ghairi na urudi kwenye orodha ya nakala"
+      title_of_article: "Kichwa cha kifungu"
+      description_of_article: "Maelezo ya kifungu"
+    article:
+      by: "na"
+  activerecord:
+    models:
+      article: 'Kifungu'
+    attributes:
+      article:
+        title: 'Kichwa'
+        description: 'Maelezo'
+      user:
+        username: "Jina la mtumiaji"
+        email: "Barua pepe"
+        password: "Nenosiri"
+  layouts:
+    navigation:
+      articles: "Nakala"
+      create_new_article: "Unda nakala mpya"
+      view_articles: "Angalia makala"
+      bloggers: "Wanablogu"

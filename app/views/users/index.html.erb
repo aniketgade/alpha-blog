@@ -1,4 +1,4 @@
-<h1 class="text-center mt-4">Alpha Bloggers</h1>
+<h1 class="text-center mt-4"><%= t('.alpha_bloggers')%></h1>
 
 <div class="container">
   <% @users.each do |user| %>
@@ -13,11 +13,11 @@
               <%= link_to gravatar_for(user, size: 150), user %>
             </h5>
             <p class="card-text"><%= pluralize(user.articles.count, "article") %></p>
-            <%= link_to "View profile", user, class: "btn btn-outline-success" %>
-            <%= link_to "Edit profile", edit_user_path(user), class: "btn btn-outline-info" %>
+            <%= link_to t('.view_profile'), user, class: "btn btn-outline-success" %>
+            <%= link_to t('.edit_profile'), edit_user_path(user), class: "btn btn-outline-info" %>
           </div>
           <div class="card-footer text-muted">
-            <small>Joined <%= time_ago_in_words(user.created_at) %> ago</small>
+            <small><%= t('.joined') %> <%=time_ago_in_words(user.created_at) %> <%= t('.ago') %></small>
           </div>
         </div>
       </div>

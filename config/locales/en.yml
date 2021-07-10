@@ -29,20 +29,43 @@
 # To learn more, please read the Rails Internationalization guide
 # available at https://guides.rubyonrails.org/i18n.html.
 
+# List of supported locales for Ruby
+#[:en, :af, :ar, :az, :be, :bg, :bn, :bs, :ca, :cs, :cy, :da, :"de-AT", :"de-CH", :"de-DE", :de, :"el-CY", :el, :"en-AU", :"en-CA", :"en-CY", :"en-GB", :"en-IE", :"en-IN", :"en-NZ", :"en-US", :"en-ZA", :eo, :"es-419", :"es-AR", :"es-CL", :"es-CO", :"es-CR", :"es-EC", :"es-ES", :"es-MX", :"es-NI", :"es-PA", :"es-PE", :"es-US", :"es-VE", :es, :et, :eu, :fa, :fi, :"fr-CA", :"fr-CH", :"fr-FR", :fr, :gl, :he, :"hi-IN", :hi, :hr, :hu, :id, :is, :"it-CH", :it, :ja, :ka, :km, :kn, :ko, :lb, :lo, :lt, :lv, :mg, :mk, :ml, :mn, :"mr-IN", :ms, :nb, :ne, :nl, :nn, :oc, :or, :pa, :pl, :"pt-BR", :pt, :rm, :ro, :ru, :sk, :sl, :sq, :sr, :"sv-SE", :sv, :sw, :ta, :te, :th, :tl, :tr, :tt, :ug, :uk, :ur, :uz, :vi, :wo, :"zh-CN", :"zh-HK", :"zh-TW", :"zh-YUE"]
+
 en:
+  users:
+    index:
+      alpha_bloggers: "Alpha Bloggers"
+      view_profile: "View Profile"
+      edit_profile: "Edit Profile"
+      joined: "Joined"
+      ago: "ago"
+    show:
+      edit_your_profile: "Edit your profile"
+      profile: "profile"
+      created: "Created"
+      edited: "Edited"
+    form:
+      update_account: "Update account"
+      sign_up: "Sign up"
+      cancel_and_return: "Cancel and Return"
+      choose_password: "Choose Password"
+      enter_your_email: "Enter Your Email"
+      choose_username: "Choose Username"
   articles:
     index:
       listing_all_articles: "Listing All Articles" 
-      view: "View"
-      edit: "Edit"
-      delete: "Delete"
     show:
+      listing_article_details: "Listing Article Details"
       view: "View"
       edit: "Edit"
       delete: "Delete"
-      listing_article_details: "Listing Article Details"
     form:
       cancel_and_return: "Cancel and return to articles listing"
+      title_of_article: "Title of article"
+      description_of_article: "Description of article"
+    article:
+      by: "by"
   activerecord:
     models:
       article: 'Article'
@@ -50,8 +73,13 @@ en:
       article:
         title: 'Title'
         description: 'Description'
+      user:
+        username: "Username"
+        email: "Email"
+        password: "Password"
   layouts:
     navigation:
-      articles: 'Articles'
-      create_new_article: 'Create new article'
-      view_articles: 'View articles'
+      articles: "Articles"
+      create_new_article: "Create new article"
+      view_articles: "View articles"
+      bloggers: "Bloggers"
