@@ -4,7 +4,7 @@ sw:
       alpha_bloggers: "Alpha Wanablogu"
       view_profile: "Tazama Profaili"
       edit_profile: "Hariri Profaili"
-      joined: "Umejiunga"
+      joined: "Umejiunga %{time} iliyopita"
       ago: "iliyopita"
     show:
       edit_your_profile: "Hariri wasifu wako"

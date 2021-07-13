@@ -4,11 +4,11 @@ mr-IN:
       alpha_bloggers: "Alpha ब्लॉगर"
       view_profile: "प्रोफाइल पहा"
       edit_profile: "प्रोफाईल संपादित करा"
-      joined: "सामील झाले"
+      joined: "%{time} आधी सामील झाले"
       ago: "पूर्वी"
     show:
       edit_your_profile: "आपले प्रोफाइल संपादित करा"
-      profile: "प्रोफाइल"
+      profile: "%{user}चे प्रोफाइल"
       created: "तयार केले"
       edited: "संपादित"
     form:
@@ -32,6 +32,8 @@ mr-IN:
       description_of_article: "लेखाचे वर्णन"
     article:
       by: "द्वारा"
+      joined: "%{time} आधी सामील झाले"
+      created: "%{time} आधी तयार केले"
   activerecord:
     models:
       article: "लेख"
@@ -49,3 +51,6 @@ mr-IN:
       create_new_article: "नवीन लेख तयार करा"
       view_articles: "लेख पहा"
       bloggers: "ब्लॉगर्स"
+  shared:
+    errors:
+      error_prevent_save: "खालील त्रुटींमुळे %{obj} जतन होण्यापासून प्रतिबंधित झाले!"

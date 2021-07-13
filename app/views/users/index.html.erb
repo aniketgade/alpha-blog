@@ -17,7 +17,7 @@
             <%= link_to t('.edit_profile'), edit_user_path(user), class: "btn btn-outline-info" %>
           </div>
           <div class="card-footer text-muted">
-            <small><%= t('.joined') %> <%=time_ago_in_words(user.created_at) %> <%= t('.ago') %></small>
+            <small><%= t('.joined', time: time_ago_in_words(user.created_at)) %></small>
           </div>
         </div>
       </div>

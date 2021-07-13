@@ -1,4 +1,4 @@
-<h1 class="text-center mt-4"><%= @user.username %>'s <%= t('.profile')%></h1>
+<h1 class="text-center mt-4"><%= t('.profile',user: @user.username)%></h1>
 
 <%= gravatar_for @user, size: 200 %>
 

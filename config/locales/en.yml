@@ -38,11 +38,11 @@ en:
       alpha_bloggers: "Alpha Bloggers"
       view_profile: "View Profile"
       edit_profile: "Edit Profile"
-      joined: "Joined"
+      joined: "Joined %{time} ago"
       ago: "ago"
     show:
       edit_your_profile: "Edit your profile"
-      profile: "profile"
+      profile: "%{user}'s profile"
       created: "Created"
       edited: "Edited"
     form:
@@ -65,7 +65,10 @@ en:
       title_of_article: "Title of article"
       description_of_article: "Description of article"
     article:
-      by: "by"
+      by_user: "by %{user}"
+      article_user: "%{article_user}"
+      joined: "Joined %{time} ago"
+      created: "Created %{time} ago"
   activerecord:
     models:
       article: 'Article'
@@ -83,3 +86,6 @@ en:
       create_new_article: "Create new article"
       view_articles: "View articles"
       bloggers: "Bloggers"
+  shared:
+    errors:
+      error_prevent_save: "Following errors prevented the %{obj} from being saved!"

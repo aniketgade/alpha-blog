@@ -5,7 +5,7 @@
         <div class="card text-center shadow mb-5 bg-white rounded">
           <div class="card-header font-italic">
             <% if article.user %>
-              <%= t('.by')%> <%= link_to article.user.username, user_path(article.user) %>
+              <%= t('.by_user', user: link_to(article.user.username, user_path(article.user)))%>
             <% end %>
           </div>
           <div class="card-body">
@@ -16,8 +16,8 @@
             <%= link_to t('articles.show.delete'), article_path(article), class: "btn btn-outline-danger", method: :delete, data: {confirm: "Are you sure?"} %>
           </div>
           <div class="card-footer text-muted">
-            <small><%= t('users.show.created')%> <%= time_ago_in_words(article.created_at) %> ago, 
-            <%= t('users.show.edited')%> <%= time_ago_in_words(article.updated_at) %> ago</small>
+            <small><%= t('.created', time: time_ago_in_words(article.created_at)) %>, 
+            <%= t('.joined', time: time_ago_in_words(article.updated_at)) %></small>
           </div>
         </div>
       </div>
