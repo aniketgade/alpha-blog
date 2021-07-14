@@ -65,7 +65,7 @@ en:
       title_of_article: "Title of article"
       description_of_article: "Description of article"
     article:
-      by_user: "by %{user}"
+      by: "by"
       article_user: "%{article_user}"
       joined: "Joined %{time} ago"
       created: "Created %{time} ago"

@@ -5,7 +5,7 @@
         <div class="card text-center shadow mb-5 bg-white rounded">
           <div class="card-header font-italic">
             <% if article.user %>
-              <%= t('.by_user', user: link_to(article.user.username, user_path(article.user)))%>
+              <%= t('.by')%> <%= link_to article.user.username, user_path(article.user) %>
             <% end %>
           </div>
           <div class="card-body">
