@@ -89,3 +89,7 @@ en:
   shared:
     errors:
       error_prevent_save: "Following errors prevented the %{obj} from being saved!"
+  will_paginate:
+    previous_label: "← Previous"
+    next_label: "Next →"
+    page_gap: "…"

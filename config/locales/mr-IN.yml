@@ -54,3 +54,7 @@ mr-IN:
   shared:
     errors:
       error_prevent_save: "खालील त्रुटींमुळे %{obj} जतन होण्यापासून प्रतिबंधित झाले!"
+  will_paginate:
+    previous_label: "← मागील"
+    next_label: "पुढे →"
+    page_gap: "…"
