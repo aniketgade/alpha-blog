@@ -40,6 +40,8 @@ en:
       edit_profile: "Edit Profile"
       joined: "Joined %{time} ago"
       ago: "ago"
+    create:
+      notice: "Welcome to the Alpha Blog %{user}, you have successfully signed up."
     show:
       edit_your_profile: "Edit your profile"
       profile: "%{user}'s profile"
@@ -53,6 +55,10 @@ en:
       enter_your_email: "Enter Your Email"
       choose_username: "Choose Username"
   articles:
+    create:
+      notice: "Article was created successfully."
+    update:
+      notice: "Article was updated successfully."
     index:
       listing_all_articles: "Listing All Articles" 
     show:

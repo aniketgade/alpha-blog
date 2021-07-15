@@ -6,6 +6,8 @@ mr-IN:
       edit_profile: "प्रोफाईल संपादित करा"
       joined: "%{time} आधी सामील झाले"
       ago: "पूर्वी"
+    create:
+      notice: "Alph ब्लॉग मध्ये आपले स्वागत आहे %{user}, आपण यशस्वीरित्या साइन अप केले आहे."
     show:
       edit_your_profile: "आपले प्रोफाइल संपादित करा"
       profile: "%{user}चे प्रोफाइल"
@@ -19,6 +21,10 @@ mr-IN:
       enter_your_email: "तुमचा ईमेल टाका"
       choose_username: "वापरकर्तानाव निवडा"
   articles:
+    create:
+      notice: "लेख यशस्वीरित्या तयार केला गेला"
+    update:
+      notice: "लेख यशस्वीरित्या अद्यतनित केला गेला"
     index:
       listing_all_articles: "सर्व लेखांची यादी" 
     show:
