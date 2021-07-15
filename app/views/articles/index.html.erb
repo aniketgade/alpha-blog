@@ -1,3 +1,11 @@
 <h1><%= t('.listing_all_articles')%></h1>
 
+<div class="apple_pagination">
+  <%= will_paginate @aricles, :container => false %>
+</div>
+
 <%= render 'article' %> 
+
+<div class="apple_pagination">
+  <%= will_paginate @aricles, :container => false %>
+</div>
