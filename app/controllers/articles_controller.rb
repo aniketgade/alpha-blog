@@ -21,8 +21,7 @@ class ArticlesController < ApplicationController
     @article.user = User.first
     if 
       @article.save
-      flash[:notice] = "Article was created successfully."
-      redirect_to article_path(@article)
+      redirect_to article_path(@article), notice:t('.notice')
     else
       render 'new'
     end
@@ -30,8 +29,7 @@ class ArticlesController < ApplicationController
 
    def update
      if @article.update(article_params)
-       flash[:notice] = "Article was updated successfully."
-       redirect_to article_path(@article)
+       redirect_to article_path(@article), notice:t('.notice')
      else
       render 'edit'
       end
