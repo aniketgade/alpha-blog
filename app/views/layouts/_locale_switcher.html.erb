@@ -1,0 +1,14 @@
+<div class='dropdown'>
+  <button class='btn btn-secondary dropdown-toggle' type='button' id='dropdownMenuLink' data-bs-toggle='dropdown' aria-expanded='false' aria-haspopup='true'>
+    Locale
+    <span class='small'> <%= I18n.locale %></span>
+  </button>
+
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <% I18n.available_locales.sort.each do |available_locale| %>
+      <%= link_to url_for(params.merge(locale: available_locale).permit!), class: 'dropdown-item' do %>
+        <%= available_locale %>
+      <% end %>
+    <% end %>
+  </div>
+</div>
