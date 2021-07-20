@@ -5,10 +5,6 @@ module LocaleHelper
     request.env['HTTP_ACCEPT_LANGUAGE']&.scan(/^[a-z]{2}/)&.first || 'en'
   end
 
-  def browser_locale_name
-    LanguageList::LanguageInfo.find(browser_locale).name
-  end
-
   def set_locale
     requested_locale = if current_user.present?
       current_user.locale

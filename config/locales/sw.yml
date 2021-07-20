@@ -5,7 +5,6 @@ sw:
       view_profile: "Tazama Profaili"
       edit_profile: "Hariri Profaili"
       joined: "Umejiunga %{time} iliyopita"
-      ago: "iliyopita"
     show:
       edit_your_profile: "Hariri wasifu wako"
       profile: "maelezo mafupi"
@@ -243,3 +242,5 @@ sw:
   pages:
     home:
       lead: Hii ni kitengo rahisi cha shujaa, sehemu rahisi ya mtindo wa jumbotron kwa kupiga kipaumbele zaidi kwa yaliyomo kwenye habari au habari.
+      subtitle: Inatumia madarasa ya matumizi kwa uchapaji na nafasi kwa nafasi ya yaliyomo ndani ya kontena kubwa.
+      signup: Jisajili!
