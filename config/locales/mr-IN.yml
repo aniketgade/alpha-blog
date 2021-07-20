@@ -37,7 +37,7 @@ mr-IN:
       title_of_article: "लेखाचे शीर्षक"
       description_of_article: "लेखाचे वर्णन"
     article:
-      by: "द्वारा"
+      by_user_html: "%{href} द्वारा"  
       joined: "%{time} आधी सामील झाले"
       created: "%{time} आधी तयार केले"
   activerecord:

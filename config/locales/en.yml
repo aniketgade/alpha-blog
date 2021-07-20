@@ -71,7 +71,7 @@ en:
       title_of_article: "Title of article"
       description_of_article: "Description of article"
     article:
-      by: "by"
+      by_user_html: "by %{href}"
       article_user: "%{article_user}"
       joined: "Joined %{time} ago"
       created: "Created %{time} ago"
