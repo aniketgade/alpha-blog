@@ -1,7 +1,7 @@
 class SessionsController < ApplicationController
-
   def new
-    
+    redirect_to home_path if current_user
+    @user = User.new
   end
 
   def create
@@ -21,5 +21,4 @@ class SessionsController < ApplicationController
     flash[:notice] = "Logged out"
     redirect_to root_path
   end
-
 end
