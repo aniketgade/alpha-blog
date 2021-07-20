@@ -1,4 +1,8 @@
 mr-IN:
+  sessions:
+    new:
+      enter_your_email_address: "तुमचा इमेल पत्ता लिहा"
+      enter_your_password: "आपला संकेतशब्द प्रविष्ट करा"
   users:
     index:
       alpha_bloggers: "Alpha ब्लॉगर"
@@ -57,6 +61,8 @@ mr-IN:
       create_new_article: "नवीन लेख तयार करा"
       view_articles: "लेख पहा"
       bloggers: "ब्लॉगर्स"
+      login: "लॉग इन करा"
+      logout: "बाहेर पडणे"
   shared:
     errors:
       error_prevent_save: "खालील त्रुटींमुळे %{obj} जतन होण्यापासून प्रतिबंधित झाले!"
