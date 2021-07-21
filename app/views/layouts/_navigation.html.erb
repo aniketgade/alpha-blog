@@ -18,12 +18,21 @@
             <%= link_to t('.view_articles'), articles_path, class: "dropdown-item" %>
           </ul>
         </li>
-        <li class="nav-item">
-           <%= link_to t('.login'), login_path, class: "nav-link" %>
-        </li>
-        <li class="nav-item">
-        <%= link_to t('.logout'), logout_path, class: "nav-link", method: :delete %>
-        </li>
+        <% if logged_in? %>
+          <li class="nav-item">
+          <%= link_to current_user.username, user_path(current_user), class: "nav-link" %>
+          </li>
+          <li class="nav-item">
+          <%= link_to t('.logout'), logout_path, class: "nav-link", method: :delete %>
+          </li>
+        <% else %>
+          <li class="nav-item">
+            <%= link_to t('.login'), login_path, class: "nav-link" %>
+          </li>
+          <li class="nav-item">
+            <%= link_to t('pages.home.signup'), signup_path, class: "nav-link" %>
+          </li>
+        <% end %>
       </ul>
       <form class="d-flex">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">

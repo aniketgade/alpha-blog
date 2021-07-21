@@ -33,11 +33,19 @@
 #[:en, :af, :ar, :az, :be, :bg, :bn, :bs, :ca, :cs, :cy, :da, :"de-AT", :"de-CH", :"de-DE", :de, :"el-CY", :el, :"en-AU", :"en-CA", :"en-CY", :"en-GB", :"en-IE", :"en-IN", :"en-NZ", :"en-US", :"en-ZA", :eo, :"es-419", :"es-AR", :"es-CL", :"es-CO", :"es-CR", :"es-EC", :"es-ES", :"es-MX", :"es-NI", :"es-PA", :"es-PE", :"es-US", :"es-VE", :es, :et, :eu, :fa, :fi, :"fr-CA", :"fr-CH", :"fr-FR", :fr, :gl, :he, :"hi-IN", :hi, :hr, :hu, :id, :is, :"it-CH", :it, :ja, :ka, :km, :kn, :ko, :lb, :lo, :lt, :lv, :mg, :mk, :ml, :mn, :"mr-IN", :ms, :nb, :ne, :nl, :nn, :oc, :or, :pa, :pl, :"pt-BR", :pt, :rm, :ro, :ru, :sk, :sl, :sq, :sr, :"sv-SE", :sv, :sw, :ta, :te, :th, :tl, :tr, :tt, :ug, :uk, :ur, :uz, :vi, :wo, :"zh-CN", :"zh-HK", :"zh-TW", :"zh-YUE"]
 
 en:
+  pages:
+    home:
+      signup: "Sign up"
+      alpha_blog: "Alpha Blog"
   sessions:
     new:
       enter_your_email_address: "Enter your email address"
       enter_your_password: "Enter your password"
   users:
+    new:
+      sign_up_for_alpha_blog: "Sign up for Alpha Blog"
+    edit:
+      edit_user: "Edit User"
     index:
       alpha_bloggers: "Alpha Bloggers"
       view_profile: "View Profile"
@@ -313,11 +321,6 @@ en:
       long: "%B %d, %Y %H:%M"
       short: "%d %b %H:%M"
     pm: pm
-  pages:
-    home:
-      lead: This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.
-      subtitle: It uses utility classes for typography and spacing to space content out within the larger container.
-      signup: Sign up!
   will_paginate:
     previous_label: "← Previous"
     next_label: "Next →"

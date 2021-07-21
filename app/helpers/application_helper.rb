@@ -3,11 +3,8 @@ module ApplicationHelper
     @current_user ||= User.find(session[:user_id]) if session[:user_id]
   end
 
-  def authenticate_user!
-    unless current_user
-      flash[:danger] = login_required
-      redirect_to login_path
-    end
+  def logged_in?
+   !!current_user
   end
 
   def gravatar_for(user, options = { size: 80})

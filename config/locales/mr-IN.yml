@@ -1,9 +1,17 @@
 mr-IN:
+  pages:
+    home:
+      signup: "साइन अप करा"
+      alpha_blog: "Alpha ब्लॉग"
   sessions:
     new:
       enter_your_email_address: "तुमचा इमेल पत्ता लिहा"
       enter_your_password: "आपला संकेतशब्द प्रविष्ट करा"
   users:
+    new:
+      sign_up_for_alpha_blog: "Alpha ब्लॉगसाठी साइन अप करा"
+    edit:
+      edit_user: "वापरकर्ता संपादित करा"
     index:
       alpha_bloggers: "Alpha ब्लॉगर"
       view_profile: "प्रोफाइल पहा"
